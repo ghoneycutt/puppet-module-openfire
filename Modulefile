@@ -1,0 +1,11 @@
+name 'ghoneycutt-openfire'
+version '0.1.0'
+source 'git://github.com/ghoneycutt/puppet-module-openfire.git'
+author 'ghoneycutt'
+license 'Apache License, Version 2.0'
+summary 'put a summary here'
+description 'put a description here'
+project_page 'https://github.com/ghoneycutt/puppet-module-openfire'
+
+dependency 'puppetlabs/stdlib', '>= 3.2.0'
+dependency 'puppetlabs/mysql', '>= 2.3.0'
